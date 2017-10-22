@@ -3,7 +3,7 @@
 #' Data from an experiment investigating the effect of cultivar and fertilizer treatments on corn grain yield.
 #'
 #' \itemize{
-#' \item year. Growing Season (Y2016) - factor.
+#' \item year. Growing Season (Y2016, Y2017) - factor.
 #' \item field. Field in which the experiment was conducted (F1 and F2) - factor.
 #' \item block. Subdivision within fields providing replications for all treatment combinations - factor.
 #' \item cultivar. Corn cultivars (C1 and C2) - factor.
@@ -14,7 +14,6 @@
 #' @docType data
 #' @name corn.yield
 #' @usage data(corn.yield)
-#' @format A data frame with 80 rows and 6 columns.
+#' @format A data frame with 160 rows and 6 columns.
 #' @export
 NULL
-
